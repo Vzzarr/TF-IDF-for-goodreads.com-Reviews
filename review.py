@@ -32,14 +32,3 @@ def tf_idf(book_author, book_title):
     print(count.most_common(100))
 
 tf_idf("", "Harry Potter")
-
-
-#xmltext = ET.tostring(tree, encoding='utf8', method='xml')
-# xmltext = re.sub('[\n]', '', xmltext)
-#print(xmltext)
-
-"""
-matches = re.findall(r"<description>.*</description>", xmltext)
-for match in matches:
-	print match
-"""
